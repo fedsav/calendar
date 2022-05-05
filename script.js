@@ -1,3 +1,4 @@
+'use strict'
 let date = new Date();
 let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'November', 'December'];
 let weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Friday', 'Saturday', 'Sunday'];
