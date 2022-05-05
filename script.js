@@ -1,6 +1,6 @@
 'use strict'
 let date = new Date();
-let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'November', 'December'];
+let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 let weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Friday', 'Saturday'];
 
 
@@ -10,7 +10,7 @@ let day = date.getDate();
 let year = date.getFullYear();
 
 
-document.getElementById('month').textContent = months[month - 1];
-document.getElementById('weekDay').textContent = weekDays[weekDay - 1];
+document.getElementById('month').textContent = months[month];
+document.getElementById('weekDay').textContent = weekDays[weekDay];
 document.getElementById('day').textContent = day;
 document.getElementById('year').textContent = year;
