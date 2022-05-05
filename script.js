@@ -10,6 +10,6 @@ let year = date.getFullYear();
 
 
 document.getElementById('month').textContent = months[month];
-document.getElementById('weekDay').textContent = weekDays[weekDay];
+document.getElementById('weekDay').textContent = weekDays[weekDay - 1];
 document.getElementById('day').textContent = day;
 document.getElementById('year').textContent = year;
