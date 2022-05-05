@@ -1,0 +1,62 @@
+body {
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    background: url('https://img.wallscloud.net/converted/3612422329-bezmyatezhnost-7XNj-1920x1080-MM-100.jpg');
+}
+
+#box {
+    position: relative;
+    border: solid 4px black;
+    margin: auto;
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#month {
+    background-color: red;
+    color: white;
+    margin: 0;
+    height: 70px;
+    font-size: 60px;
+    letter-spacing: 3px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+#weekDay {
+    color:  #999;
+    margin: 0;
+    height: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+
+#day {
+    margin: 0;
+    height: 170px;
+    font-size: 140px;
+    font-family: sans-serif;
+}
+
+#year {
+    color:  #999;
+   margin: 0;
+   height: 10px;
+   font-size: 23px;
+   font-family: sans-serif;
+}
