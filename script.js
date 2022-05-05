@@ -4,13 +4,17 @@ let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'A
 let weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Wednesday', 'Friday', 'Saturday'];
 
 
-let month = date.getMonth();
-let weekDay = date.getDay();
+let monthDate = date.getMonth();
+let weekDayDate = date.getDay();
 let day = date.getDate();
 let year = date.getFullYear();
 
 
-document.getElementById('month').textContent = months[month - 1];
-document.getElementById('weekDay').textContent = weekDays[weekDay - 1];
+let month = months[monthDate];
+let weekDay = weekDays[weekDayDate];
+
+
+document.getElementById('month').textContent = month;
+document.getElementById('weekDay').textContent = weekDay;
 document.getElementById('day').textContent = day;
 document.getElementById('year').textContent = year;
