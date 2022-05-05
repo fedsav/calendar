@@ -9,7 +9,7 @@ let day = date.getDate();
 let year = date.getFullYear();
 
 
-document.getElementById('month').textContent = months[month + 1];
-document.getElementById('weekDay').textContent = weekDays[weekDay + 1];
+document.getElementById('month').textContent = months[month];
+document.getElementById('weekDay').textContent = weekDays[weekDay];
 document.getElementById('day').textContent = day;
 document.getElementById('year').textContent = year;
