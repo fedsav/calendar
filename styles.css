@@ -9,6 +9,7 @@ body {
     position: relative;
     font-family: sans-serif;
     background: url('https://img.wallscloud.net/converted/3612422329-bezmyatezhnost-7XNj-1920x1080-MM-100.jpg');
+    background-size: cover;
 }
 
 #box {
